@@ -1,0 +1,23 @@
+.mobile_stepper {
+    width: 15%;
+    margin-left: 47%;
+    background-color: transparent !important;
+    color: #fff !important;
+    display: block;
+    position: fixed;
+    padding: 0;
+    top: 85%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .mobile_stepper {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .mobile_stepper {
+        font-size: 11px;
+    }
+}
+

@@ -1,0 +1,53 @@
+.container {
+    .medal_icon {
+        width: 55px;
+        padding-top: 3%;
+    }
+
+    .score_page_header {
+        letter-spacing: 1px;
+        color: #FFBD69;
+        font-size: 25px;
+    }
+
+    p {
+        color: #FFBD69;
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 1%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        .medal_icon {
+            width: 40px;
+            padding-top: 2%;
+        }
+
+        .score_page_header {
+            font-size: 22px;
+        }
+
+        p {
+            font-size: 24px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        .medal_icon {
+            width: 32px;
+        }
+
+        .score_page_header {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 19px;
+            padding-top: 0%;
+        }
+    }
+}
