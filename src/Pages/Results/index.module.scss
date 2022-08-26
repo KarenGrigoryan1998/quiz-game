@@ -1,0 +1,16 @@
+.main_container {
+    width: 100%;
+    background-color: #000;
+    font-family: Arial;
+    height: 2300px;
+    color: #fff;
+    text-align: center;
+
+    .box {
+        width: 65% !important;
+        height: 2300px;
+        margin-left: 16.5%;
+        background: rgb(12, 3, 29);
+        background: linear-gradient(90deg, rgba(12, 3, 29, 1) 0%, rgba(26, 15, 80, 1) 18%, rgba(26, 15, 80, 1) 82%, rgba(12, 3, 29, 1) 100%);
+    }
+}

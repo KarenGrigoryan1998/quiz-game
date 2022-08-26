@@ -1,0 +1,14 @@
+.main_container {
+    width: 100%;
+    background-color: black;
+    font-family: Arial;
+    color: #fff;
+
+    .background_image {
+        background-image: url(../../Images/home_background.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+}

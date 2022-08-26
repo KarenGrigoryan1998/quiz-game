@@ -1,0 +1,21 @@
+.home_page_header {
+    text-align: center;
+    padding-top: 6%;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "New Rocker";
+    letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .home_page_header {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .home_page_header {
+        font-size: 30px;
+    }
+}
+//Where is media for 480px
